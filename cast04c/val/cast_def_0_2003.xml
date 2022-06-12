@@ -1,0 +1,26 @@
+<annotation>
+	<folder>i2</folder>
+	<filename>cast_def_0_2003.jpeg</filename>
+	<path>D:\bag\ml-635\casting\cast04\i2\cast_def_0_2003.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Void</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>55</xmin>
+			<ymin>134</ymin>
+			<xmax>95</xmax>
+			<ymax>164</ymax>
+		</bndbox>
+	</object>
+</annotation>
