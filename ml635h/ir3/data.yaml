@@ -1,0 +1,5 @@
+train: .ir3/train
+val: .ir3/valid
+
+nc: 1
+names: ['Chip']

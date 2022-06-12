@@ -1,0 +1,26 @@
+<annotation>
+	<folder>a</folder>
+	<filename>cast_def_0_177.jpeg</filename>
+	<path>C:\Users\dgleba\Downloads\casting\a\cast_def_0_177.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Void</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>9</xmin>
+			<ymin>274</ymin>
+			<xmax>36</xmax>
+			<ymax>303</ymax>
+		</bndbox>
+	</object>
+</annotation>

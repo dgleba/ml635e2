@@ -1,0 +1,5 @@
+train: ./ir-1//train/images
+val: ./ir-1//valid/images
+
+nc: 1
+names: ['Chip']

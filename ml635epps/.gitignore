@@ -1,0 +1,6 @@
+**/**.pth
+**/modelweights_*.*
+.ipynb_checkpoints
+modelweights_*.*
+modelweights_*
+cast02/modelweights_*.*
