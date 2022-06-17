@@ -1,20 +1,22 @@
-From fastdotai/fastai:2.2.5
+From 1.11.0-cuda11.3-cudnn8-runtime
 
-workdir /acup
+# workdir /acup
 
 run mkdir -p /out && \
   conda list>/out/condalist_$(date +"_%Y.%m.%d_%b-%a_%H.%M.%S")-initial.txt && \
   pip freeze>/out/requirements_$(date +"_%Y.%m.%d_%b-%a_%H.%M.%S")-initial.txt && \
   pip freeze>/out/requirements.txt 
 
+# Run apt update &&
+#  DEBIAN_FRONTEND=noninteractive apt-get install -y python3-opencv mc
+
+#tz prompt. dpkg fix...
+# pip install opencv-python
+
 run conda config --set auto_update_conda False
 
-run apt -y install mc
 
-run pip install fastbook wwf  
-run pip install torch==1.11.0 
-run pip install torchvision==0.12.0 
-run pip install pycocotools 
+# run pip install pycocotools 
 
 
 # run echo jupyter>>/out/requirements.txt
