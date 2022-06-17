@@ -1,0 +1,10 @@
+echo hello
+i=0
+ 
+while true
+do
+   echo "$i  - $(date)"
+   let i++
+   sleep 60
+done
+
