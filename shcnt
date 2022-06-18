@@ -3,7 +3,8 @@ i=0
  
 while true
 do
-   echo "$i  - $(date)"
+   echo "$i  - $(date +"%Y.%m.%d_%b-%a_%H.%M" -d "-4 hours")"
+   #$(TZ=EDT date -R)
    let i++
    sleep 60
 done
