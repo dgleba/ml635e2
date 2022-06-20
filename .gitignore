@@ -2,3 +2,5 @@
 *.pth
 imgdata/
 savedmodel/
+train.record
+test.record
