@@ -25,9 +25,13 @@ flags.DEFINE_string('image_dir', '', 'Path to images')
 FLAGS = flags.FLAGS
 
 
+# edit-these-marker
+
 def class_text_to_int(row_label):
     if row_label == 'Chip':
         return 1
+    if row_label == 'Crack':
+        return 2
     else:
         return None
 
@@ -46,7 +50,11 @@ def create_tf_example(group, path):
     width, height = image.size
 
     filename = group.filename.encode('utf8')
-    image_format = b'jpg'
+    
+    # edit-these-marker
+    
+    image_format = b'png'
+    
     xmins = []
     xmaxs = []
     ymins = []
